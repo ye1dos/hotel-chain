@@ -1,0 +1,213 @@
+.search-box{
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+}
+
+.reg-form{
+    background-color: rgba(240,248,255, .9);
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.reg-form-agent{
+    background-color: white;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+
+.info-form{
+    background-color: rgba(240,248,255, .97);
+    padding: 25px;
+    margin-top: 25px;
+}
+
+#homeNavbar{
+    background-color: rgba(63, 93, 181, .4);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    height: 70px !important;
+    border-bottom: gray 2px solid !important;
+    margin-bottom: 10px;
+}
+
+#home{
+    background-image: url('main.jpg');
+    /*top: 0; right: 0; bottom: 0; left: 200px;*/
+    background-position: left 100px top;
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+    height: 100vh;
+    padding-top: 80px;
+    margin-top: -70px;
+}
+
+#searchHeader{
+    text-align: center;
+}
+
+#search{
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: 20px;
+}
+
+#login{
+    background-image: url('loginImg.jpg');
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+#loginAdmin{
+    /*background-color: rgba(35, 52, 158, .3);*/
+    /*padding: 30px;*/
+}
+
+.logoutButton{
+    background-color: Transparent;
+    background-repeat :no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;opacity: 100;
+    color: white !important;
+}
+
+.train.item .time-in-way:before {
+    content: "";
+    background-color: rgba(0,0,0,.6);
+    height: 1px;
+    width: 6em;
+    position: absolute;
+    top: 48%;
+    right: auto;
+    bottom: auto;
+    left: -5em;
+}
+
+.col-set-width{
+    width:450px
+}
+
+.ui.header .sub.header {
+    display: block;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+    color: rgba(0,0,0,.6);
+}
+
+.ui.header{
+    border: none;
+    margin: calc(2rem - .14286em) 0 1rem;
+    padding: 0;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+    color: rgba(0,0,0,.87);
+}
+.ui.header_but{
+    border: none;
+    margin: calc(2rem - .14286em) 0 1rem;
+    padding: 0;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+    color: rgba(252,255,250,0.44)
+}
+
+
+
+.profile_info_short {
+    padding-top: 10px;
+}
+
+.profile_info {
+    line-height: 150%;
+}
+
+.clear_fix {
+    display: block;
+}
+
+.clear_fix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.label {
+    width: 165px;
+    color: #828282;
+}
+
+.labeled {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fl_l {
+    float: left;
+}
+
+
+#AgentNavigation{
+    border: black 2px solid !important;
+
+}
+.profile_info_row {
+    padding-top: 5px;
+}
+
+.line{
+    border-top: 1px solid #e7e8ec;
+    padding: 20px;
+}
+
+#admin{
+    background-color: #ced3f2;
+    min-height: 100vh;
+    height: 100%;
+}
+
+#adminNavbar{
+    background-color: rgba(63, 93, 181, .4);
+    height: 70px !important;
+    border-bottom: black 1px solid !important;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #b2baed !important;
+}
+
+
+#v-pills-tabContent{
+    /*border: black 2px solid !important;*/
+    background-color: white !important;
+    border-radius: 15px;
+}
+
+.btn-secondary{
+    background-color:  rgba(63, 93, 181, .8) !important;
+}
+
+.table .thead-dark th{
+    background-color:  rgba(63, 93, 181, .8) !important;
+}
+
+.table td{
+    background-color: white;
+}
